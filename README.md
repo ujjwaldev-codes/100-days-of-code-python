@@ -8,7 +8,7 @@ Daily Python practice, small projects, notes, and fun experiments! 🐍✨
 **Tracking:** #100DaysOfCode
 
 ## Progress Tracker
-- [ ] Day 1 – Band Name Generator  
+- [X] Day 1 – Band Name Generator  
 - [ ] Day 2 – Tip Calculator  
 - [ ] Day 3 – ...  
 (→ I'll check these off as I go! Feel free to fork or ⭐ if you're following along)
@@ -48,3 +48,26 @@ All projects are simple Python scripts you run in VS Code. Here's the easiest wa
 **Note:** For days with libraries (like Turtle or Requests later), you might need to install them once with `pip install turtle` (or similar) in the terminal — but most early days need nothing extra.
 
 Happy running! 🐍 If you run into issues, check that Python is in your PATH or ask in the course community.
+
+
+### Day 1: March 6, 2026
+**What I Learned :**
+print(), input(), string concatenation, len(), comments, variable and rules to name them debugging 
+
+**Project Name :** Band Name Generator
+
+**Code Snippet**
+# 1. Greetings to user of the program
+print("\n\nWelcome to the Band Name Generator! \n")
+# 2. Taking two pieces of information : name of home-town and pet 
+town_name = input("Enter the name of your home-town: \n")
+pet_name = input("\nEnter the name of your pet: \n")
+#Printing the suggested name of band by simple fun logic of combining the two names above
+print("\nYour Band Name could be : \n"+ "The "+ town_name+" "+pet_name)
+#------------FINISH-----------#
+
+**Link to Code File** --> day-01/band_name_generator.py
+**Link to Screen Shot** --> day-01/day-01-ss.png
+
+
+### Day 2: 
