@@ -56,18 +56,13 @@ print(), input(), string concatenation, len(), comments, variable and rules to n
 
 **Project Name :** Band Name Generator
 
-**Code Snippet**
+**How Program Works**
 # 1. Greetings to user of the program
-print("\n\nWelcome to the Band Name Generator! \n")
 # 2. Taking two pieces of information : name of home-town and pet 
-town_name = input("Enter the name of your home-town: \n")
-pet_name = input("\nEnter the name of your pet: \n")
-#Printing the suggested name of band by simple fun logic of combining the two names above
-print("\nYour Band Name could be : \n"+ "The "+ town_name+" "+pet_name)
-#------------FINISH-----------#
+#3.Printing the suggested name of band by simple fun logic of combining the two names above
 
-**Link to Code File** --> day-01/band_name_generator.py
-**Link to Screen Shot** --> day-01/day-01-ss.png
+[Link to Code File](day-01/band_name_generator.py)
+[Link to Screen Shot](day-01/day-01-ss.png)
 
 
 ### Day 2: 
