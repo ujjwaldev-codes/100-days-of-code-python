@@ -50,20 +50,21 @@ All projects are simple Python scripts you run in VS Code. Here's the easiest wa
 Happy running! 🐍 If you run into issues, check that Python is in your PATH or ask in the course community.
 
 
-### Day 1: March 6, 2026
+## Day 1: March 6, 2026
 **What I Learned :**
 print(), input(), string concatenation, len(), comments, variable and rules to name them debugging 
 
 **Project Name :** Band Name Generator
 
 **How Program Works**
-1. Greetings to user of the program
-2. Taking two pieces of information : name of home-town and pet 
-3.Printing the suggested name of band by simple fun logic of combining the two names above
+1. Greetings to user of the program.
+2. Taking two pieces of information : name of home-town and pet.
+3. Printing the suggested name of band by simple fun logic of combining the two names above.
 
 **Files**
-- [Link to Code File](day-01/band_name_generator.py)
-- [Link to Screen Shot](day-01/day-01-ss.png)
+- [Code File](day-01/band_name_generator.py)
+- [Image Of Teminal Output](day-01/day-01-ss.png)
 
 
-### Day 2: 
+
+## Day 2: 
