@@ -4,7 +4,7 @@ My personal journey through Dr. Angela Yu's **100 Days of Code: The Complete Pyt
 Daily Python practice, small projects, notes, and fun experiments! 🐍✨
 
 **Goal:** Code every day for 100 days → build real projects from beginner basics to advanced apps, games, websites & more.  
-**Started:** March 6, 2026 (Meerut vibes ☕)  
+**Started:** March 6, 2026 
 **Tracking:** #100DaysOfCode
 
 ## Progress Tracker
@@ -18,7 +18,33 @@ Daily Python practice, small projects, notes, and fun experiments! 🐍✨
 - Instructor: Dr. Angela Yu  
 - Focus: Hands-on projects, no fluff — perfect for beginners like me!
 
-## How to Run
-Most days are simple console scripts. Just:  
-```bash
-python day-01/band_name_generator.py
+## How to Run the Projects (Using Visual Studio Code)
+
+All projects are simple Python scripts you run in VS Code. Here's the easiest way:
+
+1. **Open the repo in VS Code**  
+   - Download/clone this repo to your computer.  
+   - In VS Code: File → Open Folder → select the folder (e.g., `100-days-of-python`).
+
+2. **Make sure Python is set up in VS Code**  
+   - Install the official **Python extension** by Microsoft (search "Python" in Extensions tab if not already installed).  
+   - VS Code will ask to select your Python interpreter — choose the one you installed (usually shows as Python 3.x).
+
+3. **Run any day's script** (choose your favorite method):  
+   - **Easiest (recommended for beginners):** Open the .py file (e.g., `day-01/band_name_generator.py`) → click the green **▶️ Run Python File** play button in the top-right corner of the editor.  
+     This opens a terminal automatically and runs the code!  
+   - **Alternative:** Right-click inside the code editor → select **Run Python File in Terminal**.  
+   - **Manual way (using terminal):**  
+     Open the integrated terminal in VS Code (Terminal → New Terminal or Ctrl+` ) → type:  
+     ```bash
+     python day-01/band_name_generator.py
+     ```  
+     (Replace with the correct day/folder/file name. On some systems use `python3` instead of `python`.)
+
+4. **Interact with the program**  
+   - The terminal will ask questions (e.g., "What's the city?") → type your answer and press Enter.  
+   - See the output right there!
+
+**Note:** For days with libraries (like Turtle or Requests later), you might need to install them once with `pip install turtle` (or similar) in the terminal — but most early days need nothing extra.
+
+Happy running! 🐍 If you run into issues, check that Python is in your PATH or ask in the course community.
