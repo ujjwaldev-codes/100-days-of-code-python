@@ -9,7 +9,7 @@ Daily Python practice, small projects, notes, and fun experiments! 🐍✨
 
 ## Progress Tracker
 - [X] Day 1 – Band Name Generator  
-- [ ] Day 2 – Tip Calculator  
+- [X] Day 2 – Tip Calculator  
 - [ ] Day 3 – ...  
 (→ I'll check these off as I go! Feel free to fork or ⭐ if you're following along)
 
