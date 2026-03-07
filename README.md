@@ -67,4 +67,26 @@ print(), input(), string concatenation, len(), comments, variable and rules to n
 
 
 
-## Day 2: 
+## Day 2: March 7, 2026
+**What I Learned :**
+Today I learnt, mathematical operation in python, data type and type conversions, f-strings(Useful to insert number with strings in printing statements, since direct concatenation of strings and int not possible.
+Numbers(int float etc), functions( breif idea), type(), round(), and str() function and built: bmi calculator and a Tip Calculator, 
+
+NOTE: I made mistake and learnt that input() always return string
+final_bill = bill*(1+(tip_percentage/100))
+TypeError: unsupported operand type(s) for /: 'str' and 'int'
+and "10"/100 raise error, so....
+SOLUTION : use float(input()), to get number : in bill percent ad no. of people
+
+**Project Name :** Tip Calculator
+
+**How Program Works**
+1. Greetings to user of the program.
+2. Taking three pieces of information : Bill, Tip Percentage, No. of people splitting bill.
+3. Printing the Final Bill incl. Tip and amount each has to pay.
+4. I tried to have fanciness by proper spacing and also made good use of round and type casting to produce result as per money calculation 2 decimal place.
+
+**Files**
+- [Code File](day-02/Tip_Calculator.py)
+- [Image Of Teminal Output](day-02/Tip_Calculator-OUTPUT-SS.png)
+
