@@ -63,7 +63,7 @@ print(), input(), string concatenation, len(), comments, variable and rules to n
 
 **Files**
 - [Code File](day-01/band_name_generator.py)
-- [Image Of Teminal Output](day-01/day-01-ss.png)
+- [Image Of Teminal Output](day-01/band_name_generator-OUTPUT-SS.png)
 
 
 
