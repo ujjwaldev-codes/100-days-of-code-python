@@ -10,7 +10,7 @@ Daily Python practice, small projects, notes, and fun experiments! 🐍✨
 ## Progress Tracker
 - [X] Day 1 – Band Name Generator  
 - [X] Day 2 – Tip Calculator  
-- [ ] Day 3 – ...  
+- [X] Day 3 – Treasure Island  
 (→ I'll check these off as I go! Feel free to fork or ⭐ if you're following along)
 
 ## About the Course
@@ -90,3 +90,21 @@ SOLUTION : use float(input()), to get number : in bill percent ad no. of people
 - [Code File](day-02/Tip_Calculator.py)
 - [Image Of Teminal Output](day-02/Tip_Calculator-OUTPUT-SS.png)
 
+
+## Day 3: March 8, 2026
+**What I Learned :**
+Today I learnt, the conditionl statements, block codes, logical operators (to combine two or more condition in a line) and their scopes, BMI interpretation (coding exercise) and voting eligibility test using python code, even or odd number analysis and logic, pizza delivery program(as per course exercise), The Treasure Island(Project of the day)
+Finally make use of Logical and other operators in my python code file for treasure island project, I concluded my today's learning chunk by practising if/elif/else/nested if(s) and knowing .lower() function.
+
+NOTE: conditional statements direct the flow of program as per the conditions specified which will checked during execution and generally depends on the input from user. 
+NOTE: I also learnt to use \' to use apostrophe and to use quotation in printing statement, we must enclose string between '' instead of "" in that case.
+
+**Project Name :** Treasure Island
+
+**How Program Works**
+1. Greetings to user of the program.
+2. Program keep asking choices like to move left or right, use boat or swim and to open which door to reach to treasure, in each condition either make you conitnue and another says game over, terminating the game.
+
+**Files**
+- [Code File](day-03/Treasure_Island.py)
+- [Image Of Teminal Output](day-03/Treasure_Island-OUTPUT-SS.png)
