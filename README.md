@@ -10,7 +10,8 @@ Daily Python practice, small projects, notes, and fun experiments! 🐍✨
 ## Progress Tracker
 - [X] Day 1 – Band Name Generator  
 - [X] Day 2 – Tip Calculator  
-- [X] Day 3 – Treasure Island  
+- [X] Day 3 – Treasure Island
+- [X] Day 4 - Rock Paper Scissor Game
 (→ I'll check these off as I go! Feel free to fork or ⭐ if you're following along)
 
 ## About the Course
@@ -108,3 +109,37 @@ NOTE: I also learnt to use \' to use apostrophe and to use quotation in printing
 **Files**
 - [Code File](day-03/Treasure_Island.py)
 - [Image Of Teminal Output](day-03/Treasure_Island-OUTPUT-SS.png)
+ 
+
+## Day 4: March 9, 2026
+**What I Learned :**
+1. Randomisation is very important and it is amazing that deterministic machines can be used as random number generators(leading to random results).
+2. Lists used a lot in python codes
+3. Idea of import keyword to use modules and their predefined function in the program
+4. Idea of modules in python: Module: consider set of instruction that deals with a task providing teamwork and modularity in program, it devide the task into small chunks.
+5. Using modules provides resuability.
+6. Generated numbers with random.randint() and random.random()
+7. Head tail program
+8. Offset and Appending Items to List
+9. When we have something common among itms or are in some order and can be grouped together called list.
+10. Defining using lists in python and using append(), extend(), random.choice(list).
+11. Also learnt the concept of list of list and IdexError in list.
+12.  And finally a rock paper scissor game specially to make use of randomisation
+
+NOTE: Initially quiet hesitating to write so many combinations of lose or win untill got a good idea. On using ASCII codes I stuck in syntax error : unterminated string literal:: SOLUTION --> Put each line in a list and printed listes with new line for each element
+Happy to use ASCII ARTS to make Program alive
+Art credit: Joan Stark — thank you! 
+
+**Project Name :** Rock Paper Scissor Game
+
+**How Program Works**
+This is achieved in python program using concept of randomisation, conditionals, lists
+After greetings the program ask to choose either rock paper scissor
+Then randomly result into either of three, and using conditional statements decide whether program won or user or it is draw...
+The program also teminates with wrong input error.
+
+**Files**
+- [Code File](day-04/Rock-Paper-Scissor.py)
+- [Image Of Teminal Output](day-04/day-04-rock-paper-scissor-terminalOutputSS.png)
+
+
