@@ -12,6 +12,7 @@ Daily Python practice, small projects, notes, and fun experiments! 🐍✨
 - [X] Day 2 – Tip Calculator  
 - [X] Day 3 – Treasure Island
 - [X] Day 4 - Rock Paper Scissor Game
+- [X] Day 5 - Password Generator
 (→ I'll check these off as I go! Feel free to fork or ⭐ if you're following along)
 
 ## About the Course
@@ -143,3 +144,30 @@ The program also teminates with wrong input error.
 - [Image Of Teminal Output](day-04/day-04-rock-paper-scissor-terminalOutputSS.png)
 
 
+## Day 5: March 10, 2026
+**What I Learned :**
+Passwords these days must be strong and different for different accounts, to aviod breaches.
+Today other than learning loop and using them in list, I finally end up with a random password generator.
+Implemented max() and try to make my own code for same functionality in python list and sum of all numbers in list using loop, as well as sum() of python list.
+Used range(), function and studied its behaviour, found it has to be used with other function like loop in this case.
+
+NOTE:
+
+**Project Name :** Password Generator
+
+**How Program Works**
+The Program Starts with greetings and ask user to tell the number of letters to be used in password
+Then program take input of how many symbols to be used, and how many numbers, rest for sure will be letters(alphabet)
+Finally program gives a random password of letters and numbers and symbols in random way(Note I Chose harder program to be random in assigning postion of these letters)
+I made use of loop, list, range and random functions.
+
+In-Projet-Learnings and Challenges:
+List of all letters as ingredient to randomly mix later, storing in a list, for alphabet I used loops. 
+Logic to generate password by randomly mixing all of the letters in the way user desired.
+Also learnt end keyword to use with print statement: end =""no new line no spce, end=" " no new line but a sapce, it change the ending character from \n by default to other choice like "", or " "(During priting each string in password list to make word not in different line or with sapcing, I used end="".
+Challenge : But this print randomly chosen letters are in order of symbols digits and letters I want randomisation within it... So I used range in step of 2 two times, to print randomly chosen symbols and numbers and rest positions to be filled by randomly chosen alphabet, this makes password UNEVEN.
+Although I could have made it more randomly organised.
+
+**Files**
+- [Code File](day-04/Password_Generator.py)
+- [Image Of Teminal Output](day-04/PasswordGeneratorTerminalOutput-SS.png)
