@@ -31,24 +31,17 @@ else:
     if remaining_letters != 0:
         for index in range(0, remaining_letters):
             password.append(random.choice(alphabet))
-    print("\nPassword 1 : ")
+    print("\nPassword 1 : \n")
     for index in range(0, len(password)):
         print(password[index],end="")
     #end =""no new line no spce, end=" " no new line but a sapce, it change the ending character from \n by default to other choice like "", or " "
     #Easy level Done, also learnt the end method to print in same like in python
     # Issue : But this print randomly chosen letters are in order of symbols digits and letters i want randomisation within it..
-    
-    # Solution below and final Output
-    # print("\n\nPassword 2 : ")
-    # for index in range(0, len(password),2):
-    #     print(password[index],end="")
-    # for index in range(1, len(password),2):
-    #     print(password[index],end="")
-
     # Best and FINAL method for complete randomisation increasing the security
     #USING random.shuffle() function
-    random.shuffle(password[])
-    for index in range(1, len(password)):
+    print("\n\nPassword (main) : \n")
+    random.shuffle(password)
+    for index in range(0, len(password)):
         print(password[index],end="")
 print("\n\n")#Proper spacing
 # ----------------------FISNISH---------------------- #
