@@ -170,4 +170,4 @@ Although I could have made it more randomly organised.
 
 **Files**
 - [Code File](day-05/Password_Generator.py)
-- [Image Of Teminal Output](day-04/PasswordGeneratorTerminalOutput-SS.png)
+- [Image Of Teminal Output](day-05/PasswordGeneratorTerminalOutput-SS.png)
