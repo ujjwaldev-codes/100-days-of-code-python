@@ -13,6 +13,7 @@ Daily Python practice, small projects, notes, and fun experiments! 🐍✨
 - [X] Day 3 – Treasure Island
 - [X] Day 4 - Rock Paper Scissor Game
 - [X] Day 5 - Password Generator
+- [X] Day 6 - Maze Escape
 (→ I'll check these off as I go! Feel free to fork or ⭐ if you're following along)
 
 ## About the Course
@@ -172,3 +173,21 @@ Challenge : But this print randomly chosen letters are in order of symbols digit
 **Files**
 - [Code File](day-05/Password_Generator.py)
 - [Image Of Teminal Output](day-05/PasswordGeneratorTerminalOutput-SS.png)
+
+
+
+
+## Day 6: March 11, 2026
+**What I Learned :**
+I learnt about functions.
+After solving so many Karel Robot, links below. 
+
+NOTE: Highly Challenging.
+
+**Project Name :** Escape Maze
+
+**How Program Works**
+
+
+**Files**
+- [Image Of Teminal Output + Code](day-06/)
