@@ -180,14 +180,55 @@ Challenge : But this print randomly chosen letters are in order of symbols digit
 ## Day 6: March 11, 2026
 **What I Learned :**
 I learnt about functions.
-After solving so many Karel Robot, links below. 
+After solving so many Karel Robot, links below. Function are like modules of set of instructions, that perform the task on beign invoked or call
+and may or may not return value. It may or may not take input. It can be defined by user or can be predefined to use in the program, python libraries has various functions, many we used them intensively.
+e.g. print(), len(), shuffle(), they belongs to various modules and libraries. 
+def keyword helps us to create a function
+Fucntion reduces code lines, and provides not only modularity but also reusability
+
+Karel robot - For Concept of function
+https://docs.python.org/3/library/functions.html
+why to always repeat telling the processes like to make robot bringing milk for you daily, just put all those set of instruction on a page and entitile the page as Bring_Milk()
+More readble and easy error debugging
+https://reeborg.ca/reeborg.html
+https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%201&url=worlds%2Ftutorial_en%2Fhurdle1.json
+
+Spaces are preffered over tabs by most of online developer community for indentation
+Indentation imp in defining loop conditional statement and also for defining functions...
+While Loop - Continue running while the condition is true
+
+For Statement : for item_in_list:
+                        Do sth
+                 for number in range(a,b):
+                        print(number)
+
+While Statement : while sth_true:
+                          Keep Moving
+
+https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%202&url=worlds%2Ftutorial_en%2Fhurdle2.json
+for list traversing and range, while when we donot care how many times while is better
+Avoid infinite loops, more prone in while loop()
+https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%203&url=worlds%2Ftutorial_en%2Fhurdle3.json
+https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%204&url=worlds%2Ftutorial_en%2Fhurdle4.json
+
+# Very happy motivated by learning the function by learning various hurdles level of karel robot of Reeborg's world(LINKS ABOVE)
+
 
 NOTE: Highly Challenging.
 
 **Project Name :** Escape Maze
 
 **How Program Works**
+https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json
+Reeborg was exploring a dark maze and the battery in its flashlight ran out.
 
+Write a program using an if/elif/else statement so Reeborg can find the exit. The secret is to have Reeborg follow along the right edge of the maze, turning right if it can, going straight ahead if it can’t turn right, or turning left as a last resort.
+
+What you need to know
+The functions move() and turn_left().
+Either the test front_is_clear() or wall_in_front(), right_is_clear() or wall_on_right(), and at_goal().
+How to use a while loop and if/elif/else statements.
+It might be useful to know how to use the negation of a test (not in Python).
 
 **Files**
-- [Image Of Teminal Output + Code](day-06/)
+- [Image Of Teminal Output + Code](day-06/MAZE-OUTPUT+CODE.png)
