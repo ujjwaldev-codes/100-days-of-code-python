@@ -14,6 +14,7 @@ Daily Python practice, small projects, notes, and fun experiments! 🐍✨
 - [X] Day 4 - Rock Paper Scissor Game
 - [X] Day 5 - Password Generator
 - [X] Day 6 - Maze Escape
+- [X] Day 7 - Hangman
 (→ I'll check these off as I go! Feel free to fork or ⭐ if you're following along)
 
 ## About the Course
@@ -232,3 +233,38 @@ It might be useful to know how to use the negation of a test (not in Python).
 
 **Files**
 - [Image Of Teminal Output + Code](day-06/MAZE-OUTPUT+CODE.png)
+
+
+
+## Day 7: March 12, 2026
+**What I Learned :**
+HangMan is one of the most beautiful guessing game.
+Not only to play but while its creation I polished my concepts : for and while loop,
+if/else, lists, strings, ranges, modules
+Here is the link of demo hangman I refer while coding it on python, under guidance of my teacher Angela Yu -  https://appbrewery.github.io/python-day7-demo/
+Firstly I made flowchart programming for the game, the game is like we are given a definite number of lettered words.
+
+**Project Name :** Hangman
+
+**How code work :**
+We are given limited no, of chance to guess its word.
+For each correct it become easy for we can guess the word(of course meaningful one) and make less miss
+But as we have correct misses, the game start building a rope to hand the man, after finite no, of miss, the game over.
+There were many ways to acheieve.
+Logic or flowchart(algorithm of the program): WORKING:
+1. Generate a random word.
+2. Print no. of underscore as may letters in that word.
+3. Ask for guess and check if any letter of word match the guessed letter
+4. If guessed letter in the random word, then, print underscores for word with, aswer yess
+5. If all the blanks filled : Won, else ask for other letter
+6. If the gueesed letter wrong count the miss with grwoing hangman and if balnk filled won but before that hang man grwe miss exceeded then pemit levell lost
+
+Making meaningful english words list: and randomly choose one for user guess
+Very happy motivated by learning, unfortunatly at present I could not implement hangman hanging visual, will try soon or then.
+
+NOTE: Highly Challenging.
+
+**Files**
+- [Code File](day-07/Hangman.py)
+- [Image Of Teminal Output 1](day-07/Hangman(OUTPUT-1).png)
+- [Image Of Teminal Output 2](day-07/Hangman(OUTPUT-2).png)
