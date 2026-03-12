@@ -32,6 +32,7 @@ for index in range(len(choosen_word)):
     hidden_word.append("_")
 for index in range(len(choosen_word)):
     final_word+=hidden_word[index]
+print("***************************************** YOU HAVE ONLY 5 LIVES *****************************************\n")
 while miss !=5 and not(final_word == choosen_word):
     guess = input("Guess a letter for : "+ final_word + "\n")
     if not (guess in choosen_word):
@@ -39,19 +40,18 @@ while miss !=5 and not(final_word == choosen_word):
         miss +=1
         print((str(5-miss))+"/5 Choice(s) left: \n")
     if(miss==5):
-        print("LOST !!! ---- It was --> "+ choosen_word.lower())
+        print("\n***************************************** LOST ***************************************** :) ---- It was --> "+ choosen_word.lower())
     else:
         for i in range(len(choosen_word)):
             if(guess ==choosen_word[i]):
-                print("Right...")
                 position=i
                 hidden_word[i]=choosen_word[i]
                 final_word=""
                 for index in range(len(choosen_word)):
                     final_word+=hidden_word[index]
     if(final_word == choosen_word):
-        print("\nWON !!! yes, it was ------> "+choosen_word+"\n")    
+        print("\n***************************************** WON ***************************************** :) YES ! It Was ------> "+choosen_word+"\n")    
 
-# Visual of hangman was bit tricky and complex so took help my instructor code, only for that purpose
+# Visual of hangman was bit tricky and complex so will take help may be in future to fullfill the purpose.
 # It was most challenging as of now, motivated in solving on my own
 
