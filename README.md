@@ -15,6 +15,7 @@ Daily Python practice, small projects, notes, and fun experiments! 🐍✨
 - [X] Day 5 - Password Generator
 - [X] Day 6 - Maze Escape
 - [X] Day 7 - Hangman
+- [X] Day 8 - Ceaser Cipher
 (→ I'll check these off as I go! Feel free to fork or ⭐ if you're following along)
 
 ## About the Course
@@ -268,3 +269,36 @@ NOTE: Highly Challenging.
 - [Code File](day-07/Hangman.py)
 - [Image Of Teminal Output 1](day-07/Hangman(OUTPUT-1).png)
 - [Image Of Teminal Output 2](day-07/Hangman(OUTPUT-2).png)
+ 
+
+## Day 8: March 13, 2026
+**What I Learned :**
+More on functions: Defining fucntion and calling with inputs(parameters and argument)
+Suppose we want everytime different name...
+Variable that function have is parameter and the actual value that function receive to store in that variable is argument
+name , name1 and name2 are parameter
+girl and boy is variable containing actual value do they are argument
+Positional Arguments:
+Learnt about ord() function which returns the ASCII value of a character
+keyword argument to avoid interchange problem
+Learnt about the function count() ---> it counts the no of times a string appears in the given string
+e.g name.count("l")
+Positional Arguments.
+
+**Project Name :** Ceaser Cipher(encoding and decoding)
+
+**How code work :**
+This progrgam is inpired by the Ceasar Cipher who in order to send secret military signal
+used to encrypt it by shifting letters of alphabet like for a can be represented by say d
+This program using the same methodology asks for the input and shift no. and return he encoded string.
+I made use of function to get modula approach
+I am preferring only lower cases to work with
+ord() function which returns the ASCII value of a character.(Learning)
+NOTE: my teacher made a list of alphabet but I used ascii codes for both encode and decode, working same way.
+Encode and decode opion in while loop and logo.art of cipher
+
+NOTE: Quiet Challenging, But went through completely different approach with respect to my teacher.
+
+**Files**
+- [Code File](day-08/Carsar_Cipher.py)
+- [Image Of Teminal Output 1](day-08/Ceaser_Cipher_OUTPUT-SS.png)
