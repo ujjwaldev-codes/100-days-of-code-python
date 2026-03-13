@@ -3,7 +3,6 @@
 # This program using the same methodology asks for the input and shift no. and return he encoded string.
 # I made use of function to get modula approach
 # I am preferring only lower cases to work with
-import art
 def encrypt(string, shift_number,direction):
     # print("\n\n"+str(art.logo)+"\n") SORRY UNAVAILABLE LOGO ART
     string= string.lower()
