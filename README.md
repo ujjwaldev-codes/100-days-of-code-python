@@ -16,6 +16,7 @@ Daily Python practice, small projects, notes, and fun experiments! 🐍✨
 - [X] Day 6 - Maze Escape
 - [X] Day 7 - Hangman
 - [X] Day 8 - Ceaser Cipher
+- [X] Day 9 - The Secret Auction
 (→ I'll check these off as I go! Feel free to fork or ⭐ if you're following along)
 
 ## About the Course
@@ -301,4 +302,44 @@ NOTE: Quiet Challenging, But went through completely different approach with res
 
 **Files**
 - [Code File](day-08/Carsar_Cipher.py)
-- [Image Of Teminal Output 1](day-08/Ceaser_Cipher_OUTPUT-SS.png)
+- [Image Of Teminal Output](day-08/Ceaser_Cipher_OUTPUT-SS.png)
+
+
+## Day 9: March 14, 2026
+**What I Learned :**
+In Python dictionaries are written with curly brackets, and they have keys and values.
+They are similiar to lists but they have keys instead of indexes.
+A dictionary can be created by placing a sequence of elements within curly braces {} separated by commas, with a key and a value separated by a colon :.
+E.g. key is bug so value is errors that prevents the program from running as expected
+{"Bug": "An error in a program that prevents the program from running as expected", ... much more}
+the correct ways to define dictionary now to retrieve it..
+with key
+looping through the dictonary --> Just key
+spell the key correctly, with correct data type: string or integer
+
+NESTING : a key can be given value in dictonary as a list or dictinary itself
+The structure becomes complex but gives flexibilty to use the dictonary
+It is like loop inside another loop, and list inside list
+Each key only one value, suppose  moved to cities of uttarakhand so...
+
+**Project Name :** The Secret Auction
+
+**How code work :**
+The Program asks for name and bid , storing the data, it ask if there is any other bidder.
+On pressing yes the screen clear to keep the bid amount private,
+and entry is taken for next bidder name and amount, same thing is asked again
+on pressing no, the result like who paid heighest, and what amount (fixed)won in auction
+In this program : key learnings, is getting heighest of all number, making use of dictinary, and clearning screen as well as loops
+
+Greetings and collecting data
+clearing screen if true
+    print("\n"*100)
+Calculating the heighest bid and printing name of the bidder won
+There are several method for hiest bid but i am using loop
+There can be more than two winner with same bid.
+NOTE : Sorry, again I could not access and implement art logo
+It was not so challenging but the clearning the screen was the key takeaway, adn aslo the getting hiest bid.
+
+**Files**
+- [Code File](day-09/The_Secret_Auction.py)
+- [Images Folder Of Teminal Output](day-09/OUTPUT_SS)
