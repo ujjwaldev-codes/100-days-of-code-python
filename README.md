@@ -17,6 +17,7 @@ Daily Python practice, small projects, notes, and fun experiments! 🐍✨
 - [X] Day 7 - Hangman
 - [X] Day 8 - Ceaser Cipher
 - [X] Day 9 - The Secret Auction
+- [X] Day 10 - Calculator
 (→ I'll check these off as I go! Feel free to fork or ⭐ if you're following along)
 
 ## About the Course
@@ -343,3 +344,36 @@ It was not so challenging but the clearning the screen was the key takeaway, adn
 **Files**
 - [Code File](day-09/The_Secret_Auction.py)
 - [Images Folder Of Teminal Output](day-09/OUTPUT_SS)
+
+
+
+## Day 10: March 15, 2026
+**What I Learned :**
+1. Predefined function title(), more on functions.
+Function with outputs and return keyword under its definition.Learnt about enumerate() and traverse through string using for loop.
+return replaces the fucntion calling to output.
+difference between return and print - we can not use output of function which print output only
+2. We can have many return in a function, like to give invalid msg and stop fucntion to move ahead
+3. All statements after in a fucntion are not executed if return executed
+4. Docstrings to mention info and docs like things of the function we defined
+5. We can also use docstring """--""" as multiline comment
+6. We trigger function by adding parenthesis to it.
+but if we want to store a function to a variable like a string or integer.
+7. We can do it without parenthese and use the var name as fucntion which will store 
+the returned value of fucntion for the given parameter.
+
+**Project Name :** Calculator
+
+**How code work :**
+The Calculator is the python program which I have coded on my own as a part
+of my 100 days of code by Angela Yu.
+Through this I got a thorough idea of functions, and not only defining or calling but also passing arguments and returning and storing its value or passing it to another 
+fucntion or printing results
+
+What program do?
+1.) The program asks for two value and choice of operations to be performed on the two input values
+2.) Then user need to make choice either to continue with same calculation(taking previous result as first input) or with new calculations or exit the program...
+
+**Files**
+- [Code File](day-10/Calculator.py)
+- [Images Folder Of Teminal Output](day-10/OUTPUT-SS-CALCULATOR.png)
