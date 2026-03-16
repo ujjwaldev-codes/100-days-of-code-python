@@ -18,6 +18,7 @@ Daily Python practice, small projects, notes, and fun experiments! 🐍✨
 - [X] Day 8 - Ceaser Cipher
 - [X] Day 9 - The Secret Auction
 - [X] Day 10 - Calculator
+- [X] Day 11 - The Blackjack Game 
 (→ I'll check these off as I go! Feel free to fork or ⭐ if you're following along)
 
 ## About the Course
@@ -376,4 +377,42 @@ What program do?
 
 **Files**
 - [Code File](day-10/Calculator.py)
-- [Images Folder Of Teminal Output](day-10/OUTPUT-SS-CALCULATOR.png)
+- [Image Of Teminal Output](day-10/OUTPUT-SS-CALCULATOR.png)
+
+
+## Day 11: March 16, 2026
+**What I Learned :**
+1. Predefined function title(), more on functions.
+Function with outputs and return keyword under its definition.Learnt about enumerate() and traverse through string using for loop.
+return replaces the fucntion calling to output.
+difference between return and print - we can not use output of function which print output only
+2. We can have many return in a function, like to give invalid msg and stop fucntion to move ahead
+3. All statements after in a fucntion are not executed if return executed
+4. Docstrings to mention info and docs like things of the function we defined
+5. We can also use docstring """--""" as multiline comment
+6. We trigger function by adding parenthesis to it.
+but if we want to store a function to a variable like a string or integer.
+7. We can do it without parenthese and use the var name as fucntion which will store 
+the returned value of fucntion for the given parameter.
+
+**Project Name :** 
+
+**How code work :**
+Learnt and used append(), sum() and remove fucntion of lists in python...
+
+**What program do?**
+The game is simple yet highly challenging to code. Jack king and queen is counted as 10.
+and we have to figure out the sum of the numbers we have, and each time either to choose hit or stand.
+We risk by hit to complete 21 near, and on getting a card, on satisfying 
+dealer(computer), Chose to hit or stand, and finally sum is checked.
+If we exceeds 21 we won else other will have chance to hit on our any random card who so ever sum of card value is more each time, wins.
+
+NOTE: 
+Sorry for not able to add complete fucntionality and not coded in readable way
+Actually I could not properly understand or able to, implement ace being 2 or 11
+And doubted if one has black jack so won in all case how ???
+
+**Files**
+- [Code File](day-11/The_Blackjack_Game.py)
+- [Image(1) Of Teminal Output](day-11/OUTPUT-SS(1)-The_Blackjack.png)
+- [Image(2) Of Teminal Output](day-11/OUTPUT-SS(2)-The_Blackjack.png)
