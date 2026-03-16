@@ -414,5 +414,6 @@ And doubted if one has black jack so won in all case how ???
 
 **Files**
 - [Code File](day-11/The_Blackjack_Game.py)
-- [Image(1) Of Teminal Output](day-11/OUTPUT-SS(1)-The_Blackjack.png)
-- [Image(2) Of Teminal Output](day-11/OUTPUT-SS(2)-The_Blackjack.png)
+- [Image(1) Of Teminal Output](day-11/OUTPUT-SS-(1)-The_Blackjack_Game.png)
+- [Image(2) Of Teminal Output](day-11/OUTPUT-SS-(2)-The_Blackjack_Game.png)
+- [Image(3) Of Teminal Output](day-11/OUTPUT-SS-(3)-The_Blackjack_Game.png)
