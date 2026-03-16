@@ -34,11 +34,11 @@ while loop_status!="no":
             status = input("Type 'y' to get another card, type 'n' to pass :  ")
     if c==1:
         print("\nYou went over, lost\n-------------------------------------------------")
-
+        print("\n----------------------------------------------\nYour Final Cards : "+str(user_card)+f"      and Score : {sum(user_card)}\nComputer Final Cards : "+str(computer_card)+f"      and Score : {sum(computer_card)}\n----------------------------------------------")
     else:
         while not sum(computer_card)>=17:
             computer_card.append(random.choice(card_values)) 
-        print("\nYour final card(s) :  "+str(user_card)+"\nComputer final card(s) :  "+str(computer_card))   
+        print("\n----------------------------------------------\nYour Final Cards : "+str(user_card)+f"      and Score : {sum(user_card)}\nComputer Final Cards : "+str(computer_card)+f"      and Score : {sum(computer_card)}\n----------------------------------------------")
         if sum(computer_card)>21:
             print("\nYOU WON !!!\n-------------------------------------------------")
         elif sum(computer_card)<=21 and sum(user_card)<=21:
@@ -49,9 +49,10 @@ while loop_status!="no":
             else:
                 print("\nCOMPUTER WON !!!\n-------------------------------------------------")
     loop_status=input("DO YOU WANT TO CONTINUE WITH THE BLACK JACK :('yes'/'no') \n")
-print("\n----------------------------------------------\nYour Final Cards : "+str(user_card)+f"      and Score : {sum(user_card)}\nComputer Final Cards : "+str(computer_card)+f"      and Score : {sum(computer_card)}\n----------------------------------------------")
 print("\n********************* GAME TERMINATED ********************* \n")
 
 # Sorry for not able to add complete fucntionality and not coded in readable way
 # Actually I could not properly understand or able to, implement ace being 2 or 11
 # And doubted if one has black jack so won in all case how ???
+
+
