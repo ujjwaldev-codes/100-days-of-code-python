@@ -18,7 +18,8 @@ Daily Python practice, small projects, notes, and fun experiments! 🐍✨
 - [X] Day 8 - Ceaser Cipher
 - [X] Day 9 - The Secret Auction
 - [X] Day 10 - Calculator
-- [X] Day 11 - The Blackjack Game 
+- [X] Day 11 - The Blackjack Game
+- [X] Day 12 - Number Guessing Game 
 (→ I'll check these off as I go! Feel free to fork or ⭐ if you're following along)
 
 ## About the Course
@@ -395,7 +396,7 @@ but if we want to store a function to a variable like a string or integer.
 7. We can do it without parenthese and use the var name as fucntion which will store 
 the returned value of fucntion for the given parameter.
 
-**Project Name :** 
+**Project Name :** The Blackjack Game
 
 **How code work :**
 Learnt and used append(), sum() and remove fucntion of lists in python...
@@ -417,3 +418,33 @@ And doubted if one has black jack so won in all case how ???
 - [Image(1) Of Teminal Output](day-11/OUTPUT-SS-(1)-The_Blackjack_Game.png)
 - [Image(2) Of Teminal Output](day-11/OUTPUT-SS-(2)-The_Blackjack_Game.png)
 - [Image(3) Of Teminal Output](day-11/OUTPUT-SS-(3)-The_Blackjack_Game.png)
+
+
+
+
+## Day 12: March 17, 2026
+**What I Learned :**
+1. Predefined function title(), more on functions.
+Function with outputs and return keyword under its definition.Learnt about enumerate() and traverse through string using for loop.
+return replaces the fucntion calling to output.
+difference between return and print - we can not use output of function which print output only
+2. We can have many return in a function, like to give invalid msg and stop fucntion to move ahead
+3. All statements after in a fucntion are not executed if return executed
+4. Docstrings to mention info and docs like things of the function we defined
+5. We can also use docstring """--""" as multiline comment
+6. We trigger function by adding parenthesis to it.
+but if we want to store a function to a variable like a string or integer.
+7. We can do it without parenthese and use the var name as fucntion which will store 
+the returned value of fucntion for the given parameter.
+
+**Project Name :** Number Guessing Game
+
+**What program do?**
+Using random.randint(),I generated a random no. between 1 to 100.
+User need to guess it, in 5 attepmts, if he chose hard level, or in 10 attempts if he chose easy level.
+Then if he hit a guess on right number he is winner else he lost. In both the cases, the random number will be disclosed.
+the program works in loop and there is proper focus kept on spacing and handling situation of  wrong inputs.
+
+**Files**
+- [Code File](day-12/Number_Guessing_Game.py)
+- [Image Of Teminal Output](day-12/OUTPUT-SS-NUMBER_GUESSING_GAME.png)
