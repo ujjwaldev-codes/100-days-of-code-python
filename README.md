@@ -424,18 +424,20 @@ And doubted if one has black jack so won in all case how ???
 
 ## Day 12: March 17, 2026
 **What I Learned :**
-1. Predefined function title(), more on functions.
-Function with outputs and return keyword under its definition.Learnt about enumerate() and traverse through string using for loop.
-return replaces the fucntion calling to output.
-difference between return and print - we can not use output of function which print output only
-2. We can have many return in a function, like to give invalid msg and stop fucntion to move ahead
-3. All statements after in a fucntion are not executed if return executed
-4. Docstrings to mention info and docs like things of the function we defined
-5. We can also use docstring """--""" as multiline comment
-6. We trigger function by adding parenthesis to it.
-but if we want to store a function to a variable like a string or integer.
-7. We can do it without parenthese and use the var name as fucntion which will store 
-the returned value of fucntion for the given parameter.
+I have learnt namespaces : Local and Global Variable.
+1.) Scope is the concept in programming that defines the part of the program that can access a particular variable or fucntion
+2.) Global variable can be accessed by any part of the program.
+3.) Variable donot have block scope in python unlike c, c++, java etc !!!
+4.) Scope is restricted to functions, inside the fucntion it is lower scope than outside
+5.) Global scope is when, variable is defined out of all above fucntion most probably at the top of program and can be accessed by any fucntion in the program.
+6.) No block restriction like if-else and for etc.
+7.) Within a fucntion a variable is in local scope.
+8.)Modifying Global Scope : inside any fucntion we can modify globle scope varible by using global keyword
+9.)Not recomended, then change will be at global level, instead use the value and modify version use in return or printing purpose
+10.)This won't cause huge change and also we fullfill purpose with value in the global variable.
+11.)Many times using global scope is helpful.suppose we donot want to use value of pie as 3.145159 etc everytime
+12.) SO, to make it accessible everywhere we can store it in a variable say pi and decalring it in global scope
+13.) Not only pi but any url like https://google/com etc
 
 **Project Name :** Number Guessing Game
 
