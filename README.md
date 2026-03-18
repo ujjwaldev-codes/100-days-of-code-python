@@ -19,7 +19,8 @@ Daily Python practice, small projects, notes, and fun experiments! 🐍✨
 - [X] Day 9 - The Secret Auction
 - [X] Day 10 - Calculator
 - [X] Day 11 - The Blackjack Game
-- [X] Day 12 - Number Guessing Game 
+- [X] Day 12 - Number Guessing Game
+- [X] Day 13 - NO Project(learnt Error Handling Tips)
 (→ I'll check these off as I go! Feel free to fork or ⭐ if you're following along)
 
 ## About the Course
@@ -450,3 +451,15 @@ the program works in loop and there is proper focus kept on spacing and handling
 **Files**
 - [Code File](day-12/Number_Guessing_Game.py)
 - [Image Of Teminal Output](day-12/OUTPUT-SS-NUMBER_GUESSING_GAME.png)
+
+
+
+## Day 13: March 18, 2026
+**What I Learned :**
+Today there was no project, I just went through lecture videos.
+The lecture was amazing and informational. Bug in computer refers to error that avoid desired output from program.
+We programmers deal with bug on daily basis.
+Firstly we should understand that bug are inevitable. Secondly more we fix the bug more we learn and grow in coding.
+Thirdly below are the steps to go in order to fix bug and instead of getting demotivated, we need to take it as oppertunity.
+
+[Click for More Information](day-13/Learnings_of_the_day.txt)  
