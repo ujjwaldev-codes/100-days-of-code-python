@@ -1,0 +1,18 @@
+Today there was no project, I just went through lecture videos.
+The lecture was amazing and informational. Bug in computer refers to error that avoid desired output from program.
+We programmers deal with bug on daily basis.
+Firstly we should understand that bug are inevitable. Secondly more we fix the bug more we learn and grow in coding.
+Thirdly below are the steps to go in order to fix bug and instead of getting demotivated, we need to take it as oppertunity.
+=====================================================
+1.) Know the problem, is it compile time or logical.
+try to have research
+2.) Reproduce the bug.
+3.) Play like you are the computer, try to dry run code yourself.
+4.) Fix the errors, and re-run timely.
+5.) Every time try to check the working using print statement. This avoids burden of errors.
+6.) Try to use comments and have modular approach.
+7.) Use debugger.
+8.) When nothing above works try to get help from stackoverflow.
+=====================================================
+Fun Tip: Many a times we feel exhausted or not able to look at problem from other angles, so that time best thing is to take break sleep or nap, have something to eat drink or have walk. Again sit to solve the problem, or ask from friend.
+Finally as we move to higher level of projects, our  bug also start growing horrible and giant.
