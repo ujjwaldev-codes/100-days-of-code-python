@@ -467,7 +467,7 @@ Thirdly below are the steps to go in order to fix bug and instead of getting dem
 
 
 
-## Day 12: March 17, 2026
+## Day 14: March 19, 2026
 **What I Learned :**
 Today, was not anything new but a simple recap of dictionary and list, also conditional statements like if-else and loops.
 
