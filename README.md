@@ -21,6 +21,7 @@ Daily Python practice, small projects, notes, and fun experiments! 🐍✨
 - [X] Day 11 - The Blackjack Game
 - [X] Day 12 - Number Guessing Game
 - [X] Day 13 - NO Project(learnt Error Handling Tips)
+- [X] Day 14 - Higher Lower Game 
 (→ I'll check these off as I go! Feel free to fork or ⭐ if you're following along)
 
 ## About the Course
@@ -463,3 +464,22 @@ Firstly we should understand that bug are inevitable. Secondly more we fix the b
 Thirdly below are the steps to go in order to fix bug and instead of getting demotivated, we need to take it as oppertunity.
 
 [Click for More Information](day-13/Learnings_of_the_day.txt)  
+
+
+
+## Day 12: March 17, 2026
+**What I Learned :**
+Today, was not anything new but a simple recap of dictionary and list, also conditional statements like if-else and loops.
+
+**Project Name :** Higher Lower Game
+
+**What program do?**
+This is one of the most interesting game I coded in python under 100-days of code python bootcamp of Angela Yu. In this game Player is asked to compare the number of followers the famous celebrities have in instagram. Unfortunatly I could not manage to get the art logo to make to program look fancy but I somehow followed the logic below or step:
+1.) I Prepared dictionary of celebrities containing their names as key and the dictionary itself containing profession followers and country they belong to key and feeded their values.
+2.) Then I used list and dictionary traversing using loop to keep asking and switching the person from a to b as we move on , in each choice correct score increments by 1, and for wrong the traversing stops and we get wrong answer message with final score.
+3.) It is compulsory to fill more entries of celebrities in the dictionary celebrities.
+4.) I used name profession and country to introduce them and no of followers to check the choice made of more famous is right or wrong.
+
+**Files**
+- [Code File](day-14/Higher_Lower_Game.py)
+- [Image Of Teminal Output](day-14/OUTPUT-HIGHER_LOWER_GAME-SS.png)
