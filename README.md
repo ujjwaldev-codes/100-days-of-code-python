@@ -23,6 +23,7 @@ Daily Python practice, small projects, notes, and fun experiments! 🐍✨
 - [X] Day 13 - NO Project(learnt Error Handling Tips)
 - [X] Day 14 - Higher Lower Game
 - [X] Day 15 - The Coffee Machine
+- [X] Day 16 - The Coffee Machine(OOP Based)
 (→ I'll check these off as I go! Feel free to fork or ⭐ if you're following along)
 
 ## About the Course
@@ -555,3 +556,91 @@ latte was their choice of drink.
 **Files**
 - [Code File](day-15/The_Coffee_Machine.py)
 - [Image Of Teminal Output](day-15/OUTPUT-SS-THE_COFFE_MACHINE.png)
+
+
+
+
+## Day 16: March 21, 2026
+**What I Learned :**
+Procedural programming we set functions, we write set of instructions and but  we can get confused with when it comes to write complex program say self driving car, we need a modules and a seperate team to take charge of the data and functionality of modules of that program. to solve the major project.
+Here comes OOP, we make objects having data and characteristics , and perfom their duty and contribute in the project.'
+these objects are like, waiter receptionist, cook etc, of the restuarnt.
+The programer or the main merger can be manager, who dicatcte but donot worry of how objects do.
+
+CLASSES and OBJECTS:(Connect program with real world)
+attributes(variables but not free floating but attached to a object and methods(functions),but defines functionality to particular object again attached to a particular object not floating anywhere in the program.
+
+We have object we can even have many waiters with different name having different attributes or what they have, but function same, they are defined by a blueprint called class.
+class is just a blueprint, which defines the object, but object can be many defined from same blueprint, ofcourse we can not have pens from blue print of pencils. Object are real which we use
+car = carBlueprint() --> object = class() -> (activated function constructor)
+
+Made design with turtle graphics
+Function tied with object we called methods
+we can use vaious modules from packaages and libraies that, the people have created, by creating the object adn usin gattributes and methods defined for them in documention
+
+
+developed and shared by python community, pypi
+
+**Project Name :** The Coffee Machine(OOP Based)
+
+**What program do?**
+Coffee Machine Program Requirements
+1. Prompt user by asking “ What would you like? (espresso/latte/cappuccino): ”
+a. Check the user’s input to decide what to do next.
+b. The prompt should show every time action has completed, e.g. once the drink is
+dispensed. The prompt should show again to serve the next customer.
+2. Turn off the Coffee Machine by entering “ off ” to the prompt.
+a. For maintainers of the coffee machine, they can use “off” as the secret word to turn off
+the machine. Your code should end execution when this happens.
+3. Print report.
+a. When the user enters “report” to the prompt, a report should be generated that shows
+the current resource values. e.g.
+Water: 100ml
+Milk: 50ml
+Coffee: 76g
+Money: $2.5
+4. Check resources sufficient?
+a. When the user chooses a drink, the program should check if there are enough
+resources to make that drink.
+b. E.g. if Latte requires 200ml water but there is only 100ml left in the machine. It should
+not continue to make the drink but print: “ Sorry there is not enough water. ”
+c. The same should happen if another resource is depleted, e.g. milk or coffee.
+5. Process coins.
+a. If there are sufficient resources to make the drink selected, then the program should
+prompt the user to insert coins.
+b. Remember that quarters = $0.25, dimes = $0.10, nickles = $0.05, pennies = $0.01
+c. Calculate the monetary value of the coins inserted. E.g. 1 quarter, 2 dimes, 1 nickel, 2
+pennies = 0.25 + 0.1 x 2 + 0.05 + 0.01 x 2 = $0.52
+6. Check transaction successful?
+a. Check that the user has inserted enough money to purchase the drink they selected.
+E.g Latte cost $2.50, but they only inserted $0.52 then after counting the coins the
+program should say “ Sorry that's not enough money. Money refunded. ”.
+b. But if the user has inserted enough money, then the cost of the drink gets added to the
+machine as the profit and this will be reflected the next time “report” is triggered. E.g.
+Water: 100ml
+Milk: 50ml
+Coffee: 76g
+Money: $2.5
+c. If the user has inserted too much money, the machine should offer change.
+E.g. “Here is $2.45 dollars in change.” The change should be rounded to 2 decimal
+places.
+7. Make Coffee.
+a. If the transaction is successful and there are enough resources to make the drink the
+user selected, then the ingredients to make the drink should be deducted from the
+coffee machine resources.
+E.g. report before purchasing latte:
+Water: 300ml
+Milk: 200ml
+Coffee: 100g
+Money: $0
+Report after purchasing latte:
+Water: 100ml
+Milk: 50ml
+Coffee: 76g
+Money: $2.5
+b. Once all resources have been deducted, tell the user “Here is your latte. Enjoy!”. If
+latte was their choice of drink.
+
+**Files**
+- [Code File](day-16/The_Coffee_Machine(OOP-Based).py)
+- [Image Of Teminal Output](day-16/TERMINAL-OUTPUT-The_Coffee_Machine(OOP-Based).png)
