@@ -21,6 +21,5 @@ print("\n\n================================================== WELCOME TO THE QUI
 for index in question_bank:
     score +=index.result(index.ask(i),i,score)
     i+=1
-    # Every wrong answer -1 and right +4
 print("\nFinal Score "+str(score)+f"/{len(question_bank)}\n")
 print("\n================================================== QUIZ COMPLETED!  ==================================================\n\n")
