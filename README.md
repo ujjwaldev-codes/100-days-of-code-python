@@ -24,6 +24,7 @@ Daily Python practice, small projects, notes, and fun experiments! 🐍✨
 - [X] Day 14 - Higher Lower Game
 - [X] Day 15 - The Coffee Machine
 - [X] Day 16 - The Coffee Machine(OOP Based)
+- [X] Day 17 - The Quiz Project
 (→ I'll check these off as I go! Feel free to fork or ⭐ if you're following along)
 
 ## About the Course
@@ -644,3 +645,30 @@ latte was their choice of drink.
 **Files**
 - [Code File](day-16/The_Coffee_Machine(OOP-Based).py)
 - [Image Of Teminal Output](day-16/TERMINAL-OUTPUT-The_Coffee_Machine(OOP-Based).png)
+
+
+
+
+## Day 17: March 22, 2026
+**What I Learned :**
+Using oop, I made quiz project
+I learnt to make custom class, and work with it using object
+Made use of class keyword and pass, to avoid indent error
+
+PascalCase - for class name
+cameCase - not much used in python
+snake_case - rest all python code other than class 
+
+
+**Project Name :** The Quiz Project
+
+**What program do?**
+1.) Greetings
+2.) Proper spacing and keep question flow till last and finally score
+3.) Making list of question object
+4.) Using concept of loops dictionary and oops classes and object, tried to make program simple and efficient, and less error prone.
+
+
+**Files**
+- [Code File](day-17/The_Quiz_Project.py)
+- [Image Of Teminal Output](day-17/TERMINAL-OUTPUT-SS-The_Quiz_Project.png)
