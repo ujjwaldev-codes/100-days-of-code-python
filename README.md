@@ -716,8 +716,8 @@ Also got exposure of RGB color system, and Hexa decimal code form.
 1.) The program first extract 30 shades of color from a random downloaded hirst painitng
 2.) Then using color and size and loops logic also the movement and pso(), of turtle class.
 3.) The program somehow manage to end up with random dot like painting in hirsat pattern.
-4.) Finally to improve visibility in (main project) Hirst painting, I used hide().
+4.) Finally to improve visibility in (main project) Hirst painting, I used hideturtle().
 
 **Files**
 - [Code File](day-18/Hirst_Painting.py)
-- [Image Of Teminal Output](day-18/OUTPUT-Hirst_Painting-SS.png)
+- [Image Of Teminal Output](day-18/OUTPUT-SS-Hirst_Painting.png)
