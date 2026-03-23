@@ -682,7 +682,7 @@ snake_case - rest all python code other than class
 I learnt various random things in turtle package's Screen and Turtle class. Creating their object to access their methods and attributes. Some of the methods : penup(), pendown(), setpos(), xcor(), ycor(), teleport(), exitonclick() --> of Screen class, setheading(), dot(), circle(), color, etc 
 
 Went through [documentation link :](https://docs.python.org/3/library/turtle.html)
-Before making final hirst painting project I drew various shapes and design. [Link to that directory](day-18/Extra-OUTPUT-Designs)
+Before making final hirst painting project I drew various shapes and design. [Link to that directory](day-18/Extra-OUTPUT-DESIGN-SS)
 
 Also glad to mention few more learnings like :)
 If we use only import or from import 
@@ -703,8 +703,12 @@ import turtle as t
 timmy = t.Turtle()
 --> it is just like using t as turtle name recomednded only if module name is large
 
-not all modules can be imported as before, like heroes(it will be error that nomodules ),
+Not all modules can be imported as before, like heroes(it will be error that nomodules ),
 it does not come as pacakges predownloaded, we need to install the packages.
+
+Learnt tuples(list which remain constant in its content and size)
+Also got exposure of RGB color system, and Hexa decimal code form.
+
 
 **Project Name :** The Hirst Painting
 
@@ -712,7 +716,7 @@ it does not come as pacakges predownloaded, we need to install the packages.
 1.) The program first extract 30 shades of color from a random downloaded hirst painitng
 2.) Then using color and size and loops logic also the movement and pso(), of turtle class.
 3.) The program somehow manage to end up with random dot like painting in hirsat pattern.
-
+4.) Finally to improve visibility in (main project) Hirst painting, I used hide().
 
 **Files**
 - [Code File](day-18/Hirst_Painting.py)
