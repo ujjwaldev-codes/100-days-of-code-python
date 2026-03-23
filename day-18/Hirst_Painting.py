@@ -21,13 +21,13 @@ tim.penup()
 tim.setpos(-300,-300)
 print(tim.position())
 print(tim.ycor())
-for rows in range(11):
-    for columns in range(11):
+for rows in range(10):
+    for columns in range(10):
         tim.dot(20,random.choice(color_list))
         tim.up()
         tim.forward(50)
         tim.down()
-    tim.teleport(-300,tim.ycor()+100)
+    tim.teleport(-300,tim.ycor()+50)
 
 
 screen.exitonclick()
