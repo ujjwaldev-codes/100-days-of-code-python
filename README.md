@@ -25,6 +25,7 @@ Daily Python practice, small projects, notes, and fun experiments! 🐍✨
 - [X] Day 15 - The Coffee Machine
 - [X] Day 16 - The Coffee Machine(OOP Based)
 - [X] Day 17 - The Quiz Project
+- [X] Day 18 - The Hirst Painting
 (→ I'll check these off as I go! Feel free to fork or ⭐ if you're following along)
 
 ## About the Course
@@ -672,3 +673,47 @@ snake_case - rest all python code other than class
 **Files**
 - [Code File](day-17/The_Quiz_Project.py)
 - [Image Of Teminal Output](day-17/TERMINAL-OUTPUT-SS-The_Quiz_Project.png)
+
+
+
+
+## Day 18: March 23, 2026
+**What I Learned :**
+I learnt various random things in turtle package's Screen and Turtle class. Creating their object to access their methods and attributes. Some of the methods : penup(), pendown(), setpos(), xcor(), ycor(), teleport(), exitonclick() --> of Screen class, setheading(), dot(), circle(), color, etc 
+
+Went through [documentation link :](https://docs.python.org/3/library/turtle.html)
+Before making final hirst painting project I drew various shapes and design. [Link to that directory](day-18/Extra-OUTPUT-Designs)
+
+Also glad to mention few more learnings like :)
+If we use only import or from import 
+import Turtle
+timmy = turtle.Turtle()
+-->but if
+from turtle import Turtle
+timmy = Turtle()
+
+or everything
+from turtle import *
+
+It is avoided, to use third to avoid confuse of origin,
+also if making very less object try to just import to exclysively tell, the reader or other programmer about, claasses and package you are using module of.
+
+ALIAS NAME
+import turtle as t
+timmy = t.Turtle()
+--> it is just like using t as turtle name recomednded only if module name is large
+
+not all modules can be imported as before, like heroes(it will be error that nomodules ),
+it does not come as pacakges predownloaded, we need to install the packages.
+
+**Project Name :** The Hirst Painting
+
+**What program do?**
+1.) The program first extract 30 shades of color from a random downloaded hirst painitng
+2.) Then using color and size and loops logic also the movement and pso(), of turtle class.
+3.) The program somehow manage to end up with random dot like painting in hirsat pattern.
+
+
+**Files**
+- [Code File](day-18/Hirst_Painting.py)
+- [Image Of Teminal Output](day-18/OUTPUT-Hirst_Painting-SS.png)
