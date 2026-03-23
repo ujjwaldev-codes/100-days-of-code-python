@@ -2,6 +2,7 @@ import turtle
 import random
 import colorgram
 tim = turtle.Turtle()
+tim.hideturtle() #To improve visibility in (main project) Hirst painting, I used hide()
 screen = turtle.Screen()
 rgb_colors=[]
 color_list=[]
