@@ -26,6 +26,7 @@ Daily Python practice, small projects, notes, and fun experiments! 🐍✨
 - [X] Day 16 - The Coffee Machine(OOP Based)
 - [X] Day 17 - The Quiz Project
 - [X] Day 18 - The Hirst Painting
+- [X] Day 19 - The Turtle Racing
 (→ I'll check these off as I go! Feel free to fork or ⭐ if you're following along)
 
 ## About the Course
@@ -721,3 +722,35 @@ Also got exposure of RGB color system, and Hexa decimal code form.
 **Files**
 - [Code File](day-18/Hirst_Painting.py)
 - [Image Of Teminal Output](day-18/OUTPUT-SS-Hirst_Painting.png)
+
+
+
+
+## Day 19: March 24, 2026
+**What I Learned :**
+Today I learnt about more on Turtle Graphics, Event Listeners, State and Multiple Instances.
+I made drawing game which cn be controlled by keyboard, random turtle rancing game, as the final project.
+We use event listeners provided by turtle modules Screen class, they generally take function as one of the parameter,
+and call if something pressed or clicked depending on their behaviour or functionality.
+When we pass a function as input to another fucntion, we donot use parenthesis so the fucntion may not be called on its own.
+THE CONCEPT - Higher order fucntion, function that can work with other fucntions. But not all languages supports this.
+
+used onkey(), difference between clear() of Screen class and of Turtle class etc
+
+For coding for The Turtle Racing I made many turtles called object just like rahul rishabh are the objects of human class.
+these turtle objects(seperate instances) say timmy tommy, may have to be different in their methods or operation or even attributes at a same time, even though they belong to same class
+their attributes like color are defined, but may have different values like color, one is yllow or one is red
+
+**Project Name :** The Turtle Racing
+
+**What program do?**
+1.) Understanding the coordinate system in Turtle.
+Learnt the teaching from my instructor : Expand the solutions and combine and reproduce new possibilities and make it better expand donot be limited and satisfied by solution codes.
+2.) Used setup(), goto(),pos(),loops logic, coordinate system of turtgle graphics, use of color and shape attribute, concept of class and object, penup().
+3.) Before setup of the window of racing playground, user choice of guesss of the turtle color gonna win is asked using textinput() of Screen class, which later on checks if the turtle win has same color attribute as of user choice, if so user won, else lose.
+4.) The turtle is considered to be won if it cross the or reach at x = 225, at earliest, random.choice() is used to choose turtle randomly ro move.
+
+
+**Files**
+- [Code File](day-17/The_Quiz_Project.py)
+- [Image Of Teminal Output](day-17/TERMINAL-OUTPUT-SS-The_Quiz_Project.png)
