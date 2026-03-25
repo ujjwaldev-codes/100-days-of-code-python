@@ -748,9 +748,9 @@ their attributes like color are defined, but may have different values like colo
 Learnt the teaching from my instructor : Expand the solutions and combine and reproduce new possibilities and make it better expand donot be limited and satisfied by solution codes.
 2.) Used setup(), goto(),pos(),loops logic, coordinate system of turtgle graphics, use of color and shape attribute, concept of class and object, penup().
 3.) Before setup of the window of racing playground, user choice of guesss of the turtle color gonna win is asked using textinput() of Screen class, which later on checks if the turtle win has same color attribute as of user choice, if so user won, else lose.
-4.) The turtle is considered to be won if it cross the or reach at x = 225, at earliest, random.choice() is used to choose turtle randomly ro move.
+4.) The turtle is considered to be won if it cross the or reach at x = 225, at earliest, random.choice() is used to choose turtle randomly to move, random paces.
 
 
 **Files**
-- [Code File](day-17/The_Quiz_Project.py)
-- [Image Of Teminal Output](day-17/TERMINAL-OUTPUT-SS-The_Quiz_Project.png)
+- [Code File](day-19/Turtle_Racing.py)
+- [Image Directory Of Teminal Output](day-19/OUTPUT-SS-TurtleRacing)
