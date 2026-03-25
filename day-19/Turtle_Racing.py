@@ -6,7 +6,7 @@ from turtle import Turtle, Screen
 import random
 screen =Screen()
 screen.setup(width = 500, height=400)
-user_choice = screen.textinput(title="Make your coice",prompt="Which colour Turtle will win the race :  ")
+user_choice = screen.textinput(title="Make your coice",prompt='Which colour ("red", "yellow", "blue","violet", "green") Turtle will win the race :  ')
 tim = Turtle(shape="turtle")
 jhon = Turtle(shape="turtle")
 timmy = Turtle(shape="turtle")
@@ -20,7 +20,7 @@ rishu.color("blue")
 # setup() --> set up the height and width of the screen
 # textinput() --> need input title and prompt take input in graphic vicual form not terminal
 # Here we prefer positional arguments
-print("\n\nYour choice "+user_choice)
+print("\n\nYou Chose "+user_choice+" Turtle")
 # goto() --> can put turtle to its position, but how to know the x and y value of desired position.
 tim.penup()
 timmy.penup()
@@ -34,16 +34,21 @@ jhon.goto(x=-240, y=-80)
 jhonny.goto(x=-240, y=160)
 rishu.goto(x=-240, y=-160)
 candidates =[tim,timmy,jhon,jhonny,rishu]
+steps=[1,2,3,4,5,6,7,8,9,10]
+race_status ="on"
 # Logic of random winning by varying their speed
 #inital line is at x= -240 and final line is at x = 225
-while True:
+while race_status=="on":
     current_runner = random.choice(candidates)
-    current_runner.forward(10)
-    if current_runner.xcor() ==225:
-        if current_runner.color==user_choice:
-            print("\nYou won the bet !!!\n")
-        else:
-            print("\nYou Lose the Bet !!!\n")
-        print(current_runner.color+" has won...")
-        break
+    current_runner.forward(random.choice(steps))
+    for turtles in candidates:
+        if turtles.xcor()>220:
+            race_status="off"
+            if turtles.pencolor()==user_choice:
+                print("\nYou won the bet !!!")
+            else:
+                print("\nYou lost the bet !!!")
+            print(f"\n{turtles.pencolor()} Turtle won the race...\n")
+        
+            
 screen.exitonclick()
