@@ -27,6 +27,8 @@ Daily Python practice, small projects, notes, and fun experiments! 🐍✨
 - [X] Day 17 - The Quiz Project
 - [X] Day 18 - The Hirst Painting
 - [X] Day 19 - The Turtle Racing
+- [X] Day 20 - The Snake Game(Part I)
+- [X] Day 21 - The Snake Game(Part II - Final)
 (→ I'll check these off as I go! Feel free to fork or ⭐ if you're following along)
 
 ## About the Course
@@ -754,3 +756,79 @@ Learnt the teaching from my instructor : Expand the solutions and combine and re
 **Files**
 - [Code File](day-19/Turtle_Racing.py)
 - [Image Directory Of Teminal Output](day-19/OUTPUT-SS-TurtleRacing)
+
+
+
+
+## Day 20 & 21: March 25, 2026 & March 26, 2026
+**What I Learned :**
+Refreshed concepts of OOPS --> Classes and Objects.
+Also revised loops, and constants, lists, tracer(), coordinate system listen() and onkey() of Screen class etc
+Learnt Slicing and Inheritance concept, and in turtle graphics I learnt  about setting up screens,setup() and update() of Screen class ,sleep function of Time class, distance() of turtle class
+Learning by doing i.e. making snake game, which requires, all these features.
+IMP TPOICS THE DAY :
+1.) Inheritance : Very useful principle or feature of OOP programming :
+                 Suppose there is a chef class and checf knows how to cook, bake, boil, stir, measure, 
+                 peel,etc. and we also want a PastryChef class to get its object making pastery. Inheritance helps us to use to functions of another class, within another class, 
+                 like here we can inherit some properties of Chef in PastryChef, instead of making it from scratch.
+                 So, the functions we generally inherit, may be like bake, stir and measure
+                 and ofcourse, we need to make manymore not limited to inherit !
+                 We can inherit not only behaviour but also attributes, vice versa.
+                 # Example/procedure:(super/parent class --> Animal && subclass/child class --> Fish)
+                 class Fish(Animal):
+                        def __init__(self):
+                            super().__init__()
+                      
+2.) Slicing lists, tuples etc in pyhton:
+                suppose we have list of pianos keys, and we want to get a small sections of list say only c, d and e of the list, 
+                say piano is the list, piano_keys[2:5]
+EXAMPLE :
+
+piano=["a","b","c","d","e","f"]
+print(piano[2:5]) c d e
+print(piano[:5]) up to 5 frm beginning
+print(piano[::2]) every second item from beginning
+print(piano[2:5:2]) every second item fromc, d,e --> c, e
+print(piano[::-1]) print reverse 
+Same with tuple
+
+**Project Name :** The Snake Game
+
+**What program do?**
+In this project I have got oppertunity to make/code for Snake Game though simple, yet the world's most famous and legendary childhood game of many.
+I was supposed to complete this in two days.
+Features or working of the program :
+1.) Body and ground of snake
+2.) Detection logic for touching a wall or its own body to lose, or randomly appearing fruit/food
+to increase its body size and scre.
+4.) It shall be controlled by arrows and conitnuously move as set its heading.
+5.) More the score, winner is the player.(Higher scores need better control since body size grows and result in quicker end of game by eating its own body).
+
+NOTE : Delay after each segment move
+        for seg in segments:
+        seg.forward(20)
+        but we want to turn the snake say left right, so head first take turn then other body part
+        in this loop we gonna loop through the last segment to first segment in reverse order
+        start is from where we start stop is where loop gonna end, and step is, how we gonna move from start to stop
+        1 2 3 , start is 1 stop is 3 and step is 1; 4,3,2 is start is 4 stop is 2 and step is -1
+        in this case we want to go from 3 2 1 0, so start is 3 and stop is 0 and step is -1
+        but this is error to write start stop step, but good for understanding
+        range comes from c there is no aruments postional
+        for seg_num in range(start=len(segments)-1,0,step=-1):
+        We use classes for snake and food and scoreboard(seperate files managing one thing, )
+        all following the head
+detection its own tail.
+Detect collision with food
+        Managed to show and update score on scoreboard using turtle only 
+        detection of collison with walls 
+        size increase and score increase
+We avoid having game over in the beginning due to checking distance of snake's head from its head(first body segments) to be less than 10
+        for index in range(1,len(snake.segments)-1):
+                if snake.segments[0].distance(snake.segments[index])<15:
+                        score.update_score(0)
+                        game_is_on=False    
+        used slicing to make it better work with less code
+
+**Files**
+- [Image and Codes Directory](day-20&21/snake-game)
+
