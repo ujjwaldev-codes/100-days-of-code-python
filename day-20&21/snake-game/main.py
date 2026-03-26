@@ -35,7 +35,21 @@ screen.onkey(key="Up",fun=snake.up)
 screen.onkey(key="Down",fun=snake.down)
 screen.onkey(key="Left",fun=snake.left)
 screen.onkey(key="Right",fun=snake.right)
-
+"""
+        delay after each segment move
+        for seg in segments:
+        seg.forward(20)
+        but we want to turn the snake say left right, so head first take turn then other body part
+        in this loop we gonna loop through the last segment to first segment in reverse order
+        start is from where we start stop is where loop gonna end, and step is, how we gonna move from start to stop
+        1 2 3 , start is 1 stop is 3 and step is 1; 4,3,2 is start is 4 stop is 2 and step is -1
+        in this case we want to go from 3 2 1 0, so start is 3 and stop is 0 and step is -1
+        but this is error to write start stop step, but good for understanding
+        range comes from c there is no aruments postional
+        for seg_num in range(start=len(segments)-1,0,step=-1):
+        We use classes for snake and food and scoreboard(seperate files managing one thing, )
+        all following the head
+"""
 game_is_on=True
 score=ScoreBoard()
 while game_is_on:
