@@ -29,6 +29,8 @@ Daily Python practice, small projects, notes, and fun experiments! 🐍✨
 - [X] Day 19 - The Turtle Racing
 - [X] Day 20 - The Snake Game(Part I)
 - [X] Day 21 - The Snake Game(Part II - Final)
+- [X] Day 22 - The Pong Game
+- [X] Day 23 - The Turtle Crossing Game 
 (→ I'll check these off as I go! Feel free to fork or ⭐ if you're following along)
 
 ## About the Course
@@ -832,3 +834,51 @@ We avoid having game over in the beginning due to checking distance of snake's h
 **Files**
 - [Image and Codes Directory](day-20&21/snake-game)
 
+
+
+
+
+## Day 22: March 27, 2026
+**What I Learned :**
+I learnt about advance Feature or use of Turtle graphics, and refreshed almost all topics gone through till now in the course.
+Logic of moving after collision and calucaltion of touching walls and paddle was challenging as well as fun.
+
+**Project Name :** The Pong Game 
+
+**What program do?**
+Pong is legendary arcade game, and Today I ceated it in python from nothing new much, but what all I learnt up till today.
+BREAKDOWN OF PROGRAM(PROBLEM):
+--> Code enough in main program : screen setup, 
+--> May better fit in seperate class : scoreboard, ball, pongs.
+Went through the following logical steps, to acheieve screen adn functioning of pong game.
+1.) Moving and bouncing logic, bounce only when touch up and down, sidesways only if touched paddle else it will be miss.
+2.) Also increase the speed every time paddles hit the ball
+3.) Condition of win and lose and score board update.(if opponent miss ball to hit back, other get +1 point)
+
+
+
+**Files**
+- [Code Files Directory ](day-22/pong_game)
+- [Image Directory Of Output(Game)](day-22/OUTPUT_IMAGES-SS)
+
+
+
+
+## Day 23: March 28, 2026
+**What I Learned :**
+
+
+**Project Name :** The Turtle Crossing Game
+
+**What program do?**
+1. A turtle moves forwards when you press the "Up" key. It can only move forwards, not back, left or right.
+
+2. Cars are randomly generated along the y-axis and will move from the right edge of the screen to the left edge.
+3. When the turtle hits the top edge of the screen, it moves back to the original position and the player levels up. On the next level, the car speed increases.
+
+4. When the turtle collides with a car, it's game over and everything stops.
+
+
+**Files**
+- [Code Files Directory](day-19/Turtle_Racing.py)
+- [Image Directory Of Output(Game)](day-19/OUTPUT-SS-TurtleRacing)
