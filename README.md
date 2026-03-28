@@ -866,7 +866,7 @@ Went through the following logical steps, to acheieve screen adn functioning of 
 
 ## Day 23: March 28, 2026
 **What I Learned :**
-
+Today I did not learn any specific topic, but revised old concepts and, practised logic by myself, except msking car to move, continuously, in the program , I managed to do everything else by myself.
 
 **Project Name :** The Turtle Crossing Game
 
@@ -880,5 +880,5 @@ Went through the following logical steps, to acheieve screen adn functioning of 
 
 
 **Files**
-- [Code Files Directory](day-19/Turtle_Racing.py)
-- [Image Directory Of Output(Game)](day-19/OUTPUT-SS-TurtleRacing)
+- [Code Files Directory](day-23/turtle_crossing)
+- [Image Directory Of Output(Game)](day-23/IMAGES-OUTPUT-SS)
