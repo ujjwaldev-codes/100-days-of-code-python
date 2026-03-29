@@ -30,7 +30,8 @@ Daily Python practice, small projects, notes, and fun experiments! 🐍✨
 - [X] Day 20 - The Snake Game(Part I)
 - [X] Day 21 - The Snake Game(Part II - Final)
 - [X] Day 22 - The Pong Game
-- [X] Day 23 - The Turtle Crossing Game 
+- [X] Day 23 - The Turtle Crossing Game
+- [X] Day 24 - The Mail Merger 
 (→ I'll check these off as I go! Feel free to fork or ⭐ if you're following along)
 
 ## About the Course
@@ -882,3 +883,70 @@ Today I did not learn any specific topic, but revised old concepts and, practise
 **Files**
 - [Code Files Directory](day-23/turtle_crossing)
 - [Image Directory Of Output(Game)](day-23/IMAGES-OUTPUT-SS)
+
+
+
+
+
+
+## Day 24: March 29, 2026
+**What I Learned :**
+Today I went through the most interesting and useful topics. They were related to file input and output adn file handling, which includes : 
+
+1.) Reading files using python.
+2.) Open method to open the file in that directory, and mode to open with.
+3.) I also learnt about managing local files and directories.
+also made snake game better by implmenting feature of high score pannel, using the lesson 's learnt today.
+4.) After keeping a high_score panel, I also open read and write a file in python, so unlike varibale file store the data permanently.
+5.) To retrieve and store to refer to highest score evry time game starts.
+6.) Try to unload burden by closing files, just like closing chrome unecessary tabs 
+file.close(), to free up resources,
+7.) Now we have contents of file in var contents with no mode, it is readble only
+8.) Suppose you have to send a invitation letter to say 100 people, so this is sth very help to use python and except most part some part like dear <name>, must be 
+different for 100 people.
+9.) This can be example of python automation.
+
+10.) Paths system :
+===================================================================================================
+In compiuter there are files and folders, and files can be stored in folder, but not vice versa.
+
+example structure of the directories 
+
+/(root)
+    work
+        doc.txt
+        project
+            main.p
+            supportive
+        assessts
+        readme.md
+    personal
+        images
+
+NOTE : root is generally c drive in windows.
+absolute file path(relative to root) for main is /work/project/main.py
+relative path, is relative to some directories, generally we are in and the location of desired files or folder
+but what if we are in project folder ofcourse root path is same, but relative path in that case will be:
+./main.py (since we are in current directory or working directory )
+suppose we want to go to main.py from work
+./project/main.py
+suppose we are in project directory, and want to visit doc.txt
+../doc.txt
+../ --> get a step back, upward in directory from current directory
+===================================================================================================
+11.) Links used for refernce :
+( strip(), read(), write(), readlines(), open, with open as so on...)
+i.) [LINK-1](https://www.w3schools.com/python/ref_file_readlines.asp)
+ii.) [LINK-1](https://www.w3schools.com/python/ref_string_replace.asp)
+iii.) [LINK-1](https://www.w3schools.com/python/ref_string_strip.asp)
+
+**Project Name :** The Mail Merger
+
+**What program do?**
+Mail-Merger to avoid writing mails new for each or to use file handling or automation to also avoid copy paste. The Program produces bunch of letters in the targeted directory from scratch. It takes Body of Letter and list of names as input and give bunch of letters each having names provided, with relatable names as txt files. 
+
+
+**Files**
+- [Code File](day-24/main_merger.py)
+- [Input](day-24/Input)
+- [Output](day-24/bunch_of_letters)
