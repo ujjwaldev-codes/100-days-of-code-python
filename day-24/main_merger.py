@@ -1,7 +1,7 @@
 # Mail-Merger to avoid writing mails new for each or to use file handling or automation to also avoid copy paste
-with open("./body_of_letter.txt") as file:
+with open("./Input/body_of_letter.txt") as file:
     content = file.read()
-with open("./list_of_names.txt") as file:
+with open("./Input/list_of_names.txt") as file:
     names = file.readlines()
 for name in names:
     name = name.strip()
