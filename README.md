@@ -31,7 +31,8 @@ Daily Python practice, small projects, notes, and fun experiments! 🐍✨
 - [X] Day 21 - The Snake Game(Part II - Final)
 - [X] Day 22 - The Pong Game
 - [X] Day 23 - The Turtle Crossing Game
-- [X] Day 24 - The Mail Merger 
+- [X] Day 24 - The Mail Merger
+- [X] Day 25 - The States Of America Quiz 
 (→ I'll check these off as I go! Feel free to fork or ⭐ if you're following along)
 
 ## About the Course
@@ -950,3 +951,34 @@ Mail-Merger to avoid writing mails new for each or to use file handling or autom
 - [Code File](day-24/main_merger.py)
 - [Input](day-24/Input)
 - [Output](day-24/bunch_of_letters)
+
+
+
+
+
+## Day 25: March 30, 2026
+**What I Learned :**
+1.) Today I learnt about working with CSV files which are unlike normal txt files, are data files, and then analysing data with with pandas library, which is the most important, library for data analysis.
+2.) CSV is a way to represent data generally in tabular form.(Comma Seperated Value)
+3.) more on pandas library, data is dataframe object of pandas
+4.) Type of data["temp <or> "condition" <or> "day"] --> is pandas' Series object
+5.) Series is euivalent to list, single column of table
+6.) dataframe is equivalent to whole table here
+7.) series and data frame are two imp data structures or concept in pandas library
+8.) Used methods of Pandas object i.e. dataframe, like to_dict(), to_list(), max(), etc mor on documnetation below :
+9.) [Pandas Documnetation](https://pandas.pydata.org/docs/)
+10.) After a lot of struggle in making the quiz type state of america game, I learnt many overlapping adn interconnecting concepts.
+11.) Using Screen 's class mainloop method instead of exitonclick(), is preffered in this program.
+
+**Project Name :** The States Of America Quiz
+
+**What program do?**
+This is a game, in which we type names of states of america, and if right spell, we get score out of 50 on the top of prompt screen. 
+We can have it with timer with our friends. 
+Great thing is that, no points for keep answering same state, as well as no changes. 
+Moreover, If correct the name appears on the image where actually the state lies on map of USA.
+It is fun to play but challenging to code the logic.
+
+**Files**
+- [Code File]()
+- [Image Of Output(Game)]()
