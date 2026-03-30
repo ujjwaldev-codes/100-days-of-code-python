@@ -980,5 +980,5 @@ Moreover, If correct the name appears on the image where actually the state lies
 It is fun to play but challenging to code the logic.
 
 **Files**
-- [Code File]()
-- [Image Of Output(Game)]()
+- [Code Files Directory](day-25/States_Of_America_Quiz)
+- [Image Of Output(Quiz)](day-25/OutPut-SS-Demostration-of-Quiz.png)
