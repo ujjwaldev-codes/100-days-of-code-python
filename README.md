@@ -32,7 +32,8 @@ Daily Python practice, small projects, notes, and fun experiments! 🐍✨
 - [X] Day 22 - The Pong Game
 - [X] Day 23 - The Turtle Crossing Game
 - [X] Day 24 - The Mail Merger
-- [X] Day 25 - The States Of America Quiz 
+- [X] Day 25 - The States Of America Quiz
+- [X] Day 26 - The NATO Phonetic Alphabet
 (→ I'll check these off as I go! Feel free to fork or ⭐ if you're following along)
 
 ## About the Course
@@ -982,3 +983,103 @@ It is fun to play but challenging to code the logic.
 **Files**
 - [Code Files Directory](day-25/States_Of_America_Quiz)
 - [Image Of Output(Quiz)](day-25/OutPut-SS-Demostration-of-Quiz.png)
+
+
+
+
+
+
+## Day 26: March 31, 2026
+**What I Learned :**
+Using list comprehension, I made it get NATO style naming of words. like a for alfa, and so on ...
+This concept is unique in python and makes or cut the down amount of typing. makes the code a lot shorter and easier to read.
+Creating a list using new list.
+
+APLLICATION : list is [1,2,3]
+now we want a new list that contain, list of numbers one added to this list say 2, 3, 4
+so conventionally we will use for loop to go through each element and store as below in new list:
+num_list=[1,2,3]
+new_list=[]
+for num in num_list:
+    new_list.appen(num+1)
+
+LIST COMPREHENSION:
+new_list = [new_item for item in list]
+here patter now,
+new_list = [(item+1) for item in num_list]
+item+1 is the each item of new list, for each item of num_list
+
+also:
+new_list=[operations with num for num in range(a,b)]
+
+also:
+new_list=[new_item for item in list if test]
+e.g.
+name=["alibaba","momo","naag","mota"]
+short_names= [name for name in names if len(name)<5]
+or advance version
+short_names= [name.lower() for name in names if len(name)<5]
+Dictionary Comprehensions
+new_dict ={new_key:new_value for (key,value) in dict.items if test}
+
+Also used : Using split() method
+The split() method is the most straightforward and commonly used method to split a sentence into words. It splits the sentence based on spaces by default.
+
+Iterate comprehension through panda dataframe
+dataframe comprehension or looping is same as looping through python dictionary
+iterrows() --> method used for above purpose
+
+
+**Project Name :** The NATO Phonetic Alphabet
+
+**What program do?**
+I used all the topics of the todays and previous days' learnings specially comprehension of list and dictionary and pandas library use, to make this wonderful and nteresting project.
+
+** GENERAL INFORMATION :
+What is the NATO Phonetic Alphabet?
+The NATO Phonetic Alphabet (also called the International Radiotelephony Spelling Alphabet or ICAO Phonetic Alphabet) is a standardized system that assigns a unique code word to each letter of the English alphabet.
+It is used to spell out words, names, codes, or callsigns clearly over radio, telephone, or noisy communication channels where normal speech might be misunderstood.
+
+Numbers also have standard pronunciations (e.g., Three is said as "Tree", Five as "Fife", Nine as "Niner") to avoid confusion.
+Why was it created? (The "Why")
+In radio communication (military, aviation, maritime, emergency services), letters like B, C, D, E, G, P, T, V sound very similar, especially with static, accents, poor signal, or background noise.
+
+"B" can sound like "D" or "P"
+"M" can sound like "N"
+"S" and "F" are easily mixed up
+
+Example:
+
+Saying "My call sign is BD-137" over radio → easily misheard as "PD-137" or "BT-137"
+Using phonetic: "Bravo Delta one three seven" → much clearer
+
+It was developed to eliminate ambiguity and save lives in critical situations.
+How and When it was developed (The "How")
+
+During World War II, different countries and branches of the military used their own phonetic alphabets (e.g., Royal Air Force used "Able Baker Charlie", US Army used another).
+This caused confusion when allies tried to communicate with each other.
+In 1956, NATO (North Atlantic Treaty Organization) adopted a single, universal version after years of testing.
+It was designed by linguists and communications experts to work well across many languages and accents.
+The words were chosen because they are:
+Easy to pronounce for most non-native English speakers
+Distinct from each other even in bad conditions
+Not easily confused with other common words
+
+
+It is now the global standard used by:
+
+All military forces in NATO and many others
+Civil aviation (pilots and air traffic control)
+Maritime (ships at sea)
+Police, firefighters, ambulance services
+International organizations
+
+Quick Examples of Use
+
+Spelling a name: "My name is Rahul" → "Romeo Alpha Hotel Uniform Lima"
+
+
+**Files**
+- [Code Files Directory](day-26/NATO_Phonetic_Alphabet/main.py)
+- [Image(OUTPUT) Directory](day-26/OUTPUT-SS)
+
