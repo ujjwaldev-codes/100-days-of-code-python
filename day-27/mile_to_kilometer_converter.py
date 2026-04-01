@@ -16,6 +16,6 @@ label_3=tkinter.Label(text="0", font=FONT)
 label_3.grid(row=1, column=1)
 def calc():
     label_3["text"]=1.5 * int(textinput.get())
-button= tkinter.Button(text="Calculate", command=calc)
+button= tkinter.Button(text="Calculate", command=calc) # Can Implement font = FONT also in button ...
 button.grid(row= 2, column=1)
 windows.mainloop()
