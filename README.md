@@ -34,6 +34,7 @@ Daily Python practice, small projects, notes, and fun experiments! 🐍✨
 - [X] Day 24 - The Mail Merger
 - [X] Day 25 - The States Of America Quiz
 - [X] Day 26 - The NATO Phonetic Alphabet
+- [X] Day 27 - Miles to Km Converter (GUI Based Application)
 (→ I'll check these off as I go! Feel free to fork or ⭐ if you're following along)
 
 ## About the Course
@@ -1083,3 +1084,78 @@ Spelling a name: "My name is Rahul" → "Romeo Alpha Hotel Uniform Lima"
 - [Code Files Directory](day-26/NATO_Phonetic_Alphabet/main.py)
 - [Image(OUTPUT) Directory](day-26/OUTPUT-SS)
 
+
+
+
+
+
+## Day 27: April 01, 2026
+**What I Learned :**
+Today I dive into GUI using inbuilt tkinter module and also learnt about function arguments.
+This is much more in-depth than Turtle Graphics.
+Features or learning of the day: 
+1.) Creating lables and buttons, text input and program design adn layout, responding to button.
+2.) Also going advance in python function, default arguments and *args and **Kwargs.
+3.) Using all this I code a mile to km converter(GUI based). 
+
+INTRO :
+History of GUI ----> previously in order to intereact computer we need to writing command. Later GUI were graphical, point and click. Mac lisa first to allow gui, for user.
+Controversy led Windows to court. That's enough, so GUI is IMP.
+
+links --> https://docs.python.org/3/library/tkinter.html#the-packer
+tkinter is inbuilt and installed with python, already.
+
+How we can define unlimited positional arguments, unlimited keyword arguments in the function.
+used basic tkinter methods, like Label(), pack(), write(), minsize(), title(), mainloop(), 
+
+using advanced arguments to expand range of inputs arguments.
+arguments with default values
+
+type(args) --> <class 'tuple'>
+kwargs is a dictionary, with key as keyword of argument and value the argument's value
+
+
+*** pack, place and grid : layout method from tkinter module
+1.) pack ==> pack is by default top, but using side parameter we can chnge it to let right bottom also 
+So many layout manager since not one can do all layout works.
+2.) Place ==>  is abnout precise postion
+3.) grid ==> rows --> horizontal
+ and columns --> vertical 
+
+ NOTE : Suppose we have many widgets, so precise corner of widgets is nightmare.
+ So grid is conept of cell, generally for many widgets case.
+ Grid is relative
+
+ NOTE : We can not mix pack and grid together, often grid is chosen
+
+Tk doc --> https://www.tcl-lang.org/man/tcl8.6/TkCmd/entry.htm
+More on bringing other components of GUI Tkinter into screen other than label
+Anything appearing on screen should have some sort of layout so we use pack for each component
+
+More on tkinter widgets:
+1.) labels
+2.) buttons
+3.) Entry(textbox)
+4.) Text Entry(multiline input)
+5.) Scale to move along
+6.) checkbox
+7.) Radiobuttons
+8.) Listbox
+9.) Spinbox
+Finally ! Learnt the ways to organise widgets on screen or say laying out.
+easiest way to change padding(spaces around) of each widget is <Tk'Object>.config(padx=20, pady=20)
+
+**Project Name :** Miles to Km Converter (GUI Based Application)
+
+**What program do?**
+This is mile to kilomter converter GUI Application.
+Logic was simple, 1 mile has 1.5 km.
+But components and packing them on screen and taking input to and
+maintaing functionality of the program
+How Program Works : User need to type the miles in the input bar and,
+answer will be, the converted value in kilometer, ofcourse we prefer floats instead integers.
+
+
+**Files**
+- [Code Files Directory]()
+- [Image Of Output(Quiz)]()
