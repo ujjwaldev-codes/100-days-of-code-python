@@ -1157,5 +1157,5 @@ answer will be, the converted value in kilometer, ofcourse we prefer floats inst
 
 
 **Files**
-- [Code Files Directory]()
-- [Image Of Output(Quiz)]()
+- [Code File](day-27/mile_to_kilometer_converter.py)
+- [Image Of Output](day-27/OUTPUT-SS-DEMONSTRATION.png)
